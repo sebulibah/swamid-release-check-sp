@@ -23,16 +23,16 @@ $basename = 'release-check.example.org';
 # Other options for flags see https://flagcdn.com/en/codes.json
 $languages = array(
   'en' => array('name' => 'English', 'flag' => 'gb'),
-  'fr' => array('name' => 'Français', 'flag' => 'fr'),
+  #'fr' => array('name' => 'Français', 'flag' => 'fr'),
   #'fr' => array('name' => 'French', 'flag' => 'ca'),
-  'it' => array('name' => 'Italiano', 'flag' => 'it'),
-  'ro' => array('name' => 'Română', 'flag' => 'ro'),
-  'sv' => array('name' => 'Svenska', 'flag' => 'se'),
-  'sr' => array('name' => 'Cpпcки', 'flag' => 'rs'),
+  #'it' => array('name' => 'Italiano', 'flag' => 'it'),
+  #'ro' => array('name' => 'Română', 'flag' => 'ro'),
+  #'sv' => array('name' => 'Svenska', 'flag' => 'se'),
+  #'sr' => array('name' => 'Cpпcки', 'flag' => 'rs'),
 );
 
 $federation = array(
-  'displayName' => 'SWAMID',
+  'displayName' => 'Development',
   # Admin users that should have access to ops.php
   'adminUsers' => array('adminuser1@federation.org', 'adminuser2@federation.org',
     'user1@inst1.org', 'user1@inst2.org'),
@@ -54,6 +54,8 @@ $federation = array(
   # Optional if you want to change DiscoveryService or want to replace LoginURL
   # If not set defaults to service.seamlessaccess.org and Login';
   #'DS' => 'service.seamlessaccess.org',
+  'DS' => '',
+  'LoginURL' => 'Login',
   #'LoginURL' => 'DS/seamless-access',
   # Optional if you want to use profiles in magiq-button. Should alline with what is configured in shibboleth2.xml
   #'entityID' => 'https://release-check.dev-edugain.swamid.se/shibboleth',

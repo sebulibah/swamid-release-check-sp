@@ -1,5 +1,14 @@
 services:
-  sp:
+  idp:
+    image: kenchan0130/simplesamlphp:latest
+    container_name: mock_idp
+    ports:
+    - "8080:8080"
+    environment:
+      SIMPLESAMLPHP_SP_ENTITY_ID: "https://release-check.example.org/shibboleth"
+      SIMPLESAMLPHP_SP_ASSERTION_CONSUMER_SERVICE: "https://release-check.example.org/Shibboleth.sso/SAML2/POST"
+
+  release-check-sp:
     image: docker.sunet.se/swamid/metadata-sp:latest
     container_name: swamid_sp
     ports:
@@ -12,10 +21,12 @@ services:
       - ./www/scripts:/var/www/scripts
       - ./www/tests:/var/www/tests
       - ./exampleFiles/attribute-map.xml:/etc/shibboleth/attribute-map.xml
-      - ./exampleFiles/shibboleth2.xml:/etc/shibboleth/shibboleth2.xml
+      - ./exampleFiles/shibboleth2.xml:/etc/shibboleth/shibboleth2.xml:ro
+      - ./exampleFiles/idp_metadata.xml:/etc/shibboleth/idp_metadata.xml
       - ./dehydrated:/etc/dehydrated
     depends_on:
       - db
+      - idp
 
   db:
     image: mariadb:lts-ubi10
