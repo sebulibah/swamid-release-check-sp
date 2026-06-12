@@ -14,7 +14,7 @@ $db = array(
   # 'caPath' => '/etc/ssl/CA.pem',
 );
 
-$basename = 'release-check.<org>.<tld>';
+$basename = 'release-check.example.org';
 
 # Languages to offer support for.
 # Supported is listed below (based on .po files)

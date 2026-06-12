@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'swamid/releasecheck',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'gettext/gettext' => array(
+            'pretty_version' => 'v5.7.3',
+            'version' => '5.7.3.0',
+            'reference' => '95820f020e4f2f05e0bbaa5603e4c6ec3edc50f1',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../gettext/gettext',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'gettext/languages' => array(
+            'pretty_version' => '2.12.2',
+            'version' => '2.12.2.0',
+            'reference' => '079d6f4842cbcbf5673a70d8e93169a684e7aadd',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../gettext/languages',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'swamid/releasecheck' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
