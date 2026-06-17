@@ -152,7 +152,7 @@ printf ('        %s
         <br>
         <div class="row">
           <div class="col">
-            <a href="https://%s/result">
+            <a href="https://%s/Shibboleth.sso/%s%starget=https://%s/result">
               <button type="button" class="btn btn-success">' . _('%s and show attributes') . '</button>
             </a>
           </div>
@@ -165,7 +165,10 @@ printf ('        %s
           %s
         </div><!-- end collapse -->%s',
   $adminButton, $result ? _("Change") : _("Select"), $attributesShow, $attributesActive,
-  $config->basename(), $result ? _("Refresh") : _("Login") , $result ? "right" : "down",
+  $config->basename(), $federation['LoginURL'],
+  strpos($federation['LoginURL'], '?') === false ? '?' : '&',
+  $config->basename(),
+  $result ? _("Refresh") : _("Login") , $result ? "right" : "down",
   $instructionsSelected, $instructionsShow, $federation['instructionsAttributes'], "\n");
 
   $collapseIcons[] = "attributes-instructions";

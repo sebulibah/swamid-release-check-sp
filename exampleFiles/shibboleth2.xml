@@ -13,7 +13,7 @@
             redirectLimit="exact"
             checkAddress="false" handlerSSL="true" cookieProps="https" sameSiteFallback="true">
 
-            <SSO entityID="http://idp.example.org:8080/simplesaml/saml2/idp/metadata.php"> SAML2 </SSO>
+            <SSO discoveryProtocol="SAMLDS" discoveryURL="https://44.203.107.41/public/disco/"> SAML2 </SSO>
 
             <Logout>SAML2 Local</Logout>
             <LogoutInitiator type="Admin" Location="/Logout/Admin" acl="127.0.0.1 ::1" />
@@ -28,7 +28,8 @@
             helpLocation="/about.html"
             styleSheet="/shibboleth-sp/main.css"/>
 
-        <MetadataProvider type="XML" path="idp_metadata.xml"/>
+        <!--<MetadataProvider type="XML" path="idp_metadata.xml"/>-->
+        <MetadataProvider type="XML" path="solon_idps.xml"/>
 
         <AttributeExtractor type="XML" validate="true" reloadChanges="false" path="attribute-map.xml"/>
 

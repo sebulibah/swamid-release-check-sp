@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<md:EntitiesDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xrd="http://docs.oasis-open.org/ns/xri/xrd-1.0" xmlns:pyff="http://pyff.io/NS" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ser="http://eidas.europa.eu/metadata/servicelist" xmlns:eidas="http://eidas.europa.eu/saml-extensions" xmlns:ti="https://seamlessaccess.org/NS/trustinfo" xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns1="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns2="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns4="urn:mace:shibboleth:metadata:1.0" xmlns:ns5="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns6="http://www.w3.org/2000/09/xmldsig#" Name="http://localhost:8080/" ID="_20260617T074217Z" validUntil="2026-06-27T07:42:17Z" cacheDuration="PT12H">
+  <ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#_20260617T074217Z"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>rqoib/D9N/rn+OJ6L+TM1cWY/5WTAJcjC6m/mtkg9lI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>bpESe5gqcF2UVqOV+SGJzGMbEojUafcMRBEpsH9sllElDvoXGgf+TaNbI79RcD06B3KHyXmqVKBQD5QGHeHAv8ZyMi0oaAvV5T7VmUdxpgRZPfrykAMwPbX1pmoEQHVBkVpRK4ip5aerUgnSv8WwYFFLE731cUvKVmACLonuDzPc36MFiidlPvh5/gJ5CIlrGWwkI6gAkZt21yIJ66gSPnClSVEp1d/ovp91xxPzT3gglsnhoU1D4jIqDfdPplWhjZXuiomrEAi/8KQdaJPtOIDw4Ol81YPDg5VS+KbdM0coQnH8e83Bw8vabzv0nZ9zyUBV3CT291DHPPPa0DfN8y7YIwTa1AgRsd8OIPpQeD5qJRkgyFtpHtzQjdVjq2QuD/LuziZkzxKS3YTdeT4SStkEm4VGWXLJO3EekmwSEl6IP21mNVqXl11rnlEqnsF9llDJzWgvRQq/evYNVoSIeFX6NqDqno6ZN/S4FNtVRiNa4+YRJIZjqQVSuwlTCtnjQ6mo+VWxThwyfNx51ENRnrm12qiFMWmCVEhgtdOv0GoIwpcevXZ8Vxnehw1jP4nd15hiGU/ck4escqqWlXYixNz0knwkz7nJeWjt+8XyVeA1MtCKbp1rAozehRHZ3oceVcTUK0SW4mvGBV5PBhNC7drtfDHBHGZ2AQunV610exc=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFETCCAvmgAwIBAgIUI0d0ZiQuaSLXKB0rIuVg7HuliWEwDQYJKoZIhvcNAQEN
+BQAwGDEWMBQGA1UEAwwNNDQuMjAzLjEwNy40MTAeFw0yNjA1MjAwNjI5MThaFw0z
+NjA1MTcwNjI5MThaMBgxFjAUBgNVBAMMDTQ0LjIwMy4xMDcuNDEwggIiMA0GCSqG
+SIb3DQEBAQUAA4ICDwAwggIKAoICAQCu6zUl4prhaxz1e/zOQmFZ5cyC2Rm3bmCD
+oGyyGs5adQ67Ne13QcSCzw+bp4Gk/rhPm90VBtncUlQbSPk++Yar5UgaRY+PcDrU
+L/9o9D7VGDdEcvsgcGeCzcl39rVXDfIapHpc4VSSC7j+a8IoD5q7HO8hLjBcrJL1
+jVwcU8MfqZ5hjfSS6oKRd+0rfHBahl7WLwvZdS89KOgSsSvC1FGQTCPBxyvGs3p0
+/+5/D7U/fX42AXWWGBEZ9j0MdxtTzJp1wz8Bk+GL3UkaVDWX8YXeajocYRMSaJCq
+1n0BHIK0w4ODhTf/3VPiN+TkBzkeAhatWHC5Ywhvonm6eys09FS2ONG7VKXc8pIg
+D8JqhpZh4hGFPTH/CmqJKvjuEgdbDC4Udc/iOApi6zjMer+eeYSW6AulURMPmtg1
+I8//WbMkLghOVMFj7o8/y0GYQw1aJKQQN3BCOhFSnTfRXve8F9oEHbHE75ta5YW7
+sz/occz4SL+kYvMw1w1qxmUEJngC4md2Cx+GgHyZUZJjZ1FVpzrVBG86VAv9XSnj
+vOR9bfrsergheGbN1KqWLtTHX/P8F9cSDvBH5sy1VfHO8T9KGTqyjfq826e+acEb
+VsKkx+wHW1uqErb35VUbemVv4nxCyVfT5Ahwl3cUciRAt26MTEFfA4dVDAizXovN
+dt/fxu1nmwIDAQABo1MwUTAdBgNVHQ4EFgQUCUE0QHJyG3lJHNps/sYPCIbbvt4w
+HwYDVR0jBBgwFoAUCUE0QHJyG3lJHNps/sYPCIbbvt4wDwYDVR0TAQH/BAUwAwEB
+/zANBgkqhkiG9w0BAQ0FAAOCAgEAFdpjxhp5x0uz5X1DMXeZRtVbyAkiStsEUABE
+IIeDfVWZfPfOaxL0ot58zF7E+4jJsmKWQEojzYRgD+x4T02F4/tRiVJCJjRwyFUI
+kjvkRDhHmCy1SJNygL9qAFzTGHSMTMhTV+PdAWgQvxskZEPQ/1JZenY7lKPINOwG
+Jl7rJFKV+dtNWYmgQeTTzHgQP1ulz69DmlJBvnbsZmzJtalWJBm7YsmvlU3JymoW
+2JtIq2Db9cJpkE/2HJ0I+EIvojTuVUg6JnLc9yiFpDg95ZzMxuZIZ5icYT0fLYi8
+s9Y8O3gdt8tekV49GVjL75wEeWqZzrLueUHBB8kOb6teTUTDMYk3SdcyLQ8pwKhO
+7+s/th8InHlA1hxu/wOOEFUZqmAOr+VC9b3Wa+JJ4Kb8AqilgK/+h7mnCaPfVRSt
+0Ge4/8FusK6qGaaG/FoMR2cRlbOSRpCGmRUthkKbnkR8sUaNJat2NsqReDkkHf/N
+sCsO3gsS9f7hnIP184G7PR6oXMO4NyQAG/hpEjtlmBw/Lda5hVc5d1RiI65Sz+mA
+Nz/j+gBfknzItAHz/90XOXEygVo5DUKPSZgkdUe+v66HXbFbJ76wwJ6fFr9aNR4f
+CsIXJaFxx+R84aCqiKiCk5JLYLxG5sPvzlmEPKjoFPcK2jwP1dDSVo3VkC7uMSbe
+KO+pZBQ=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:EntityDescriptor entityID="https://44.203.107.41/api/idp/1">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="xs:string">https://refeds.org/category/anonymous</saml:AttributeValue>
+          <saml:AttributeValue xsi:type="xs:string">https://refeds.org/category/pseudonymous</saml:AttributeValue>
+          <saml:AttributeValue xsi:type="xs:string">https://refeds.org/category/personalized</saml:AttributeValue>
+          <saml:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+    <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAuthnRequestsSigned="false">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">richards.info</shibmd:Scope>
+        <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">University of Endor (MFA + all IAP + all entity categories)</mdui:DisplayName>
+          <mdui:Description xml:lang="en">This campus IdP mockup supports all trust federation features.</mdui:Description>
+          <mdui:Keywords xml:lang="en">University of Endor (MFA + all IAP + all entity categories)</mdui:Keywords>
+        </mdui:UIInfo>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIICjDCCAXSgAwIBAgIUJgtEfePogPgNcCSv17q052Fwej4wDQYJKoZIhvcNAQELBQAwADAeFw0yNTA2MDUwNDQzNThaFw0zNTA2MDMwNDQzNThaMAAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDheVBzxeTXe+mNPJXmi0Wy+IC7D8RHelsalC8C4RnSWtPaDlvKKV8zEa5KDIZntD/EjBzLZ8OpP1x6v5s2yRJuasz2ozUlPojt4cJpJr+Iw3rBNRFsQ3PjcpCZyNJn0gaHCGTuJeXLRqboc+mfjLrE1axKefHr+7Pytvc/DIqLAtJy5X7dZVdqYoTMWJvZg3oSgF7Xt3LIT++3graU2x46ghw7lkntKceTQSnVFijwex8XxpyhhxGq0T+TgBkixVlU/KL8Davfbbi+Y0HrFazuyG4HBQ19ceJgQckCczonv/q9YB/R4SQ5PKtXfQuf2RN4IKyAUbYEZEhfJzv7nq6TAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAK4YhljhCFzrb7GpwrN5KJUnm5IEualZfg1T3qJ9KuwzYpRRIF4UEkLY+mPzh5IZZdplGuEFSYk5yj8m02QAeDm1rt2nYNRt6rRHzJJ0yXaigoCNfAZJ4q0BwEKuHByM69VGYeu1xOUG2TO+oLkdMB20oKyiEsFsNdmsb+91shUuOeptUNwjjuD38eQLW9ss+VNaUIu7QnlJy8gQ3m5j+kLfeP2MjZr51+kUVYKGN9ba52TdjfeEtpsdfWK24os30OmpHyqCO1/mSiKGMGi6btZpGg+GO/hfJ1W5y5809CxWcLGwKRlRnmnStVZrbXXkqaKuX1Q7/V5ZGZoPf4XrMII=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://44.203.107.41/api/idp/1/sso"/>
+    </md:IDPSSODescriptor>
+    <md:Organization>
+      <md:OrganizationName xml:lang="en">University of Endor (MFA + all IAP + all entity categories)</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">University of Endor (MFA + all IAP + all entity categories)</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">https://44.203.107.41/api</md:OrganizationURL>
+    </md:Organization>
+  </md:EntityDescriptor>
+  <md:EntityDescriptor entityID="https://44.203.107.41/api/idp/2">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+    <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAuthnRequestsSigned="false">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">hughes-hernandez.com</shibmd:Scope>
+        <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">Coruscant College (optional MFA and R&amp;S)</mdui:DisplayName>
+          <mdui:Description xml:lang="en">This IdP mockup only supports legacy attribute release.  Not every user has MFA.</mdui:Description>
+          <mdui:Keywords xml:lang="en">Coruscant College (optional MFA and R&amp;S)</mdui:Keywords>
+        </mdui:UIInfo>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIICjDCCAXSgAwIBAgIULokNcbd1ZcHwjIFXAPlghxg031cwDQYJKoZIhvcNAQELBQAwADAeFw0yNTA2MDYxOTQ0MjJaFw0zNTA2MDQxOTQ0MjJaMAAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCrFQJEXdx7K4P0ucDHppac7vxy4DlUlo2wjJ3ORMy9RakuNHTpQ5glMrnkvvgsSHf5v/hfVgbBFeQLhAog87IsMnqf5V+Mb9HrTU5VApXFGO1/U3eVDXBQytadjzqW1/miyPV+N3SL+COkMr424022oA/0Fc7DSHAYKULq7hWeviuj48xK0rke+an9qQSIHZ4h+612PP1G2qZ+KmIqVCUJjJX7k9pcQq+iXbP0/hQdWJdgoDPM7r0eQOCfbEH00/14bMa2WLdY+IkOXi3wRXs/3xutLs76KamEmuPiSryiRvg68IY65Tg+DfsS+1FtSS+btimzLBCyr8FLP+moH0xPAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAKf53WYVsKf9Lxo1UJB2cd0YHX2xjaaiJWspx4gZmrLXVJcd3iDFVzFEgJNg7tAlxqWJoW5Slg55xggIw1/+yOGMpmVrq/Axo6MSmQxUVTr+Pnq21N5QNsk0t10bM9vc4quE+C4aiJiGXbIARHCYuZm3l0U6ldb7Jh7E78qWPCD7ZAXB8xIYfVxCnJgiLMgxjKGbTGMcokI48Jrl0JIHvdB+N4BAFNJg2IyqgPqUHZfasG9AoMOdjRBzJwsj6ExwrYdAU/SSx6Fin282DFUE4YAhaL1TqRKiAihjrSg28aUpL+HLcVzfQIN8/AObA2cxkaDYKdVZVY4jhPvk7vC7wVE=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://44.203.107.41/api/idp/2/sso"/>
+    </md:IDPSSODescriptor>
+    <md:Organization>
+      <md:OrganizationName xml:lang="en">Coruscant College (optional MFA and R&amp;S)</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">Coruscant College (optional MFA and R&amp;S)</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">https://44.203.107.41/api</md:OrganizationURL>
+    </md:Organization>
+  </md:EntityDescriptor>
+  <md:EntityDescriptor entityID="https://44.203.107.41/api/idp/3">
+    <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAuthnRequestsSigned="false">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">martin.info</shibmd:Scope>
+        <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">Tatooine Tech (no features supported)</mdui:DisplayName>
+          <mdui:Description xml:lang="en">This IdP mockup does not release any information to third parties.</mdui:Description>
+          <mdui:Keywords xml:lang="en">Tatooine Tech (no features supported)</mdui:Keywords>
+        </mdui:UIInfo>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIICjDCCAXSgAwIBAgIUB8xTftzC7m2X3hA/AGMcI7+cagMwDQYJKoZIhvcNAQELBQAwADAeFw0yNTA2MDYxOTQ1NDFaFw0zNTA2MDQxOTQ1NDFaMAAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDWI6xRBaQoJNckoPaKDApZ3rhSJi0w4iVk0yvYpA8M8CwhSv6czu7Y/hNMsWyfAFaNtibDGMVLF8Yghaxs3IufKU58Klg9yueq02dBM0puxszpDy6JvzTaetKRXNqwKHt9KnRqo+i9o/R9GbJNakN69yJeGZfpU+Ia1O3N/w6jN5UbJ8Izo/t2arqcGdc4unq73SIP+Fmh4hUwyEPp1MCjXfc1s+LdYPPtq3SdyOI+bNQ6S9nkP3YD/qR7BmvCt//dXjtciis3D2Elu33+eOYVmY6eYIcsCYCBra+uwEhUzI+7VWDdicYftfvb+ype0JtwqDmCqmwRZeED7zKfMPAvAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAFU7hEZtMh5xRQZaDTxE871xKdm5Sgoive2f45VUPx5ES8HJUAC5h6/OiznW7PKp0DkHuvoX7QdmwEDkn8LgfJjaIxa7l8k9L+4y5tB74R3q+iAw9OTw9VkSf1LV4dylX2Td9TBAXt1vGxgoeo0bPiUsHfn93I0BGBiqivJdhypASvAIfS0TWrN/lSptgbvrhl+WIIE1GWg7SwFULVE7iyumxsd55vCH5iSgKkpkzWYy/GXcfEUaAk0y+wgeK4HLGRoaIN48taeUB5b2elvD22tjzFeOCXOA1/gDDoF2fjgrUs16knF+KWLJgZ5ZLFUyYH7tjmWtbUh6+aakv9Ac8L0=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://44.203.107.41/api/idp/3/sso"/>
+    </md:IDPSSODescriptor>
+    <md:Organization>
+      <md:OrganizationName xml:lang="en">Tatooine Tech (no features supported)</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">Tatooine Tech (no features supported)</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">https://44.203.107.41/api</md:OrganizationURL>
+    </md:Organization>
+  </md:EntityDescriptor>
+  <md:EntityDescriptor entityID="https://44.203.107.41/api/idp/4">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="xs:string">https://refeds.org/category/anonymous</saml:AttributeValue>
+          <saml:AttributeValue xsi:type="xs:string">https://refeds.org/category/pseudonymous</saml:AttributeValue>
+          <saml:AttributeValue xsi:type="xs:string">https://refeds.org/category/personalized</saml:AttributeValue>
+          <saml:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+    <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAuthnRequestsSigned="false">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">levine.info</shibmd:Scope>
+        <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">Test IdP 1</mdui:DisplayName>
+          <mdui:Description xml:lang="en">Test IdP 1</mdui:Description>
+          <mdui:Keywords xml:lang="en">Test IdP 1</mdui:Keywords>
+        </mdui:UIInfo>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIICjDCCAXSgAwIBAgIUVrAbLPm36cn/0otvbeRohOSiOyEwDQYJKoZIhvcNAQELBQAwADAeFw0yNjA1MjAxMTAwMjJaFw0zNjA1MTcxMTAwMjJaMAAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3XSkuzggx5xOM2mcmfQx978nrBlZLOf4nrzNFOCiMC4jPe+7BofD7SmBpgnI7UzbWcMZZQXdbfg1R1sh/Ck68wXnAUHqwsu8u5GIJ56ow4Lolz8nHyG2z25qWOTP+sKvm39Ll0RO/K2yprT+TM/eh5QYMsKqd/uzSgrxZcI0NmB7b5pYK2TdMWr8HGsQSL9TyH8/Ege59ixApggFKboYhfkA8yP8KEWo7qiNvkrhFR3yM6EdRUjtiOwD+Xu+DQnZHYdnDOD+jfxMxtltyi8Dg8uMzZG2+XrTsOByZT5oo5UrP1Br+llxUzXi+90d2qs2CUmn1ohj23epyZ5HMBbxXAgMBAAEwDQYJKoZIhvcNAQELBQADggEBABS3txSpLLHZB+E9v7IQoBzoim2cj7D9r5XvfNCdh4JPSaUSEj+k1moNCMKbuH4+585LKdpjsVg1Xk3KMydyA6DuDhINxL+WdHqA0BuBPvqdbMY44s1WjWW0NzIqwvdQFOvrPT4Qaa03rCQOV03KGkzKdVaT/rsc6OmJKuQyRFzl26SEwixt+JIgc8FSvsUcEW92OhxOi9eR3lN8JT7JaIak9wcuPVk0g9H9TiOGGKpOeYm15+HhaiE3gPysZXAN7+a1aZ7kgRApJhbbexVkU42LhuKG0EkEkDV2mMS3JE/+GkhWJsvN0ozFuYKYne2nkr/fIYxOxw1sg7QwSJ1pjqE=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://44.203.107.41/api/idp/4/sso"/>
+    </md:IDPSSODescriptor>
+    <md:Organization>
+      <md:OrganizationName xml:lang="en">Test IdP 1</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">Test IdP 1</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">https://44.203.107.41/api</md:OrganizationURL>
+    </md:Organization>
+  </md:EntityDescriptor>
+</md:EntitiesDescriptor>
