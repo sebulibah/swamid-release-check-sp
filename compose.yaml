@@ -11,6 +11,7 @@ services:
       - ./www/images:/var/www/images
       - ./www/scripts:/var/www/scripts
       - ./www/tests:/var/www/tests
+      - ./exampleFiles/default-ssl.generated.conf:/etc/apache2/sites-available/default-ssl.conf:ro
       - ./exampleFiles/attribute-map.xml:/etc/shibboleth/attribute-map.xml
       - ./exampleFiles/shibboleth2.xml:/etc/shibboleth/shibboleth2.xml:ro
       - ./exampleFiles/solon_idps.xml:/etc/shibboleth/solon_idps.xml
